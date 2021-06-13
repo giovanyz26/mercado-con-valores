@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+    <strong> <h1 class="text-center"> Agregar lista de mercado</h1> </strong>
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-5 mb-2">
+                <input type="text" id='item' placeholder="Escriba el articulo" class="form-control">
+            </div>
+            <div class="col-5 mb-2">
+                <input type="text" id='item' placeholder="Escriba el valor" class="form-control">
+            </div>
+            <div class="col-2 mb-2 text-center">
+                <button type="button" class="btn btn-info" onclick="addItem()">  Agregar </button>
+            </div>
+        </div>
+        <hr>
+        <div style="width: 70%; text-align: justify; margin: 3%;">
+            <h2 class="text-center mb-3"> Listado de articulos</h2>
+            <div id="items" class="row"> 
+                No hay elementos
+            <div id="valor" class="row"> 
+                    No hay elementos
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="./javascript.js"></script>
+</body>
+</html>
